@@ -11,14 +11,6 @@ mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
 ---
 
-<style>
-.reveal h3 {
-    color: #c1d192;
-    text-align: left;
-    padding-bottom: 10px;
-    font-family: Impact, sans-serif;
-}
-</style>
 
 ## Introduction
 
