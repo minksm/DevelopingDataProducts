@@ -8,4 +8,4 @@ ii) server.R
 
 The application is accesible via https://minksm.shinyapps.io/BMICalculator
 
-The presentation slides can be found at 
+The presentation slides can be found at http://minksm.github.io/DevelopingDataProducts/BMI_Calculator_Presentation/index.html
