@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>BMI Calculator</title>
+  <meta charset="utf-8">
+  <meta name="description" content="BMI Calculator">
+  <meta name="author" content="Karen Mah,  24th September 2015">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow_night.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/ribbons.css"></link>
+
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>BMI Calculator</h1>
+    <h2>Knowing your BMI</h2>
+    <p>Karen Mah,  24th September 2015<br/>John Hopkins Bloomberg School of Public Health, Data Science</p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <article data-timings="">
+    <style>
+.reveal h3 {
+    color: #c1d192;
+    text-align: left;
+    padding-bottom: 10px;
+    font-family: Impact, sans-serif;
+}
+</style>
+
+<h2>Introduction</h2>
+
+<p>This is a Developing Data Products course assignment that is fulfilled by a Body Mass Index (BMI) calculator deveoped using the Shiny application.</p>
+
+<p>The user will only have to submit their Weight and Height and the BMI calculator will automatically calculate their BMI. Depending on the BMI, its diagnosic and associated risk and recommendations will be displayed.</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>What is BMI</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>The BMI is a simple and the most commonly used index used to classify overweight and obesity. It is defined as a persons weight in kilograms divided by the square of his height in meters (kg/m<sup>2).</sup></p>
+
+<p>The World Health Organization (WHO) defines overweight as a BMI of &gt;= 25 and a BMI of &gt;= 30 for obesity. However, because at any given BMI, Asians, generally have a higher percentage of body fat than do Caucasians, the BMI cut- off levels for Asians have been revised such that a BMI 23 kg/m<sup>2</sup> or higher marks a moderate increase in risk while a BMI 27.5 kg/m<sup>2</sup> or more represents high risk for diabetes and cardiovascular diseases.</p>
+
+<p>Below shows the various categories according to the BMI of an asian adult:</p>
+
+<p><li>BMI <18.50 : Underweight, Risk of nutritional deficiency diseases and osteoporosis
+<li>BMI [18.50 - 22.99] : Normal range,Low health risk
+<li>BMI [23.00 - 27.40] : Overweight, Moderate health Risk
+<li>BMI &gt;=27.50 : Obese, High health Risk</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>How is BMI calculated?</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>By using the following formula:</p>
+
+<p>BMI = weight(kilograms) / height(metres)<sup>2</sup></p>
+
+<p>Here is an example of how BMI is caluclated.</p>
+
+<pre><code class="r">weight = 75
+height = 1.8
+BMI &lt;- weight/height^2
+
+BMI
+</code></pre>
+
+<pre><code>## [1] 23.14815
+</code></pre>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Screenshot of the BMI calculator</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Here is a screenshot of how the BMI calcualtor looks like.</p>
+
+<p><img src="Calculator.JPG" alt="width"></p>
+
+<p>The BMI calculator can be accessed from the Shiny server via <a href="https://minksm.shinyapps.io/BMICalculator">https://minksm.shinyapps.io/BMICalculator</a></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <article data-timings="">
+    
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='NA'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='What is BMI'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='How is BMI calculated?'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='Screenshot of the BMI calculator'>
+         4
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=5 title='NA'>
+         5
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>
